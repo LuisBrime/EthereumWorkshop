@@ -37,6 +37,19 @@ contract BasicToken is ERC20 {
     // This mapping will hold the balance of the addresses that are allowed to spend tokens in behalf of the owner.
     mapping (address => mapping (address => uint256)) public allowanced;
 
+    /***** OPTIONAL FUNCTIONS *****/
+    function name() public constant returns (string) {
+        return name;
+    }
+
+    function symbol() public constant returns (string) {
+        return symbol;
+    }
+
+    function decimals() public constant returns (uint8) {
+        return decimals;
+    }
+
     /**
      * Total supply of the token
      *

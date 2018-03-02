@@ -22,13 +22,13 @@ contract ERC20 {
 
     /***** OPTIONAL FUNCTIONS *****/
     // Returns the name of the token.
-    // function name() public constant returns (string);
+    function name() public constant returns (string);
 
     // Returns the symbol of the token.
-    // function symbol() public constant returns (string);
+    function symbol() public constant returns (string);
 
     // Returns the number of decimals the token uses.
-    // function decimals() public constant returns (uint8);
+    function decimals() public constant returns (uint8);
 
     /***** REQUIRED FUNCTIONS *****/
     // Returns the total number of tokens that were created: total supply.
