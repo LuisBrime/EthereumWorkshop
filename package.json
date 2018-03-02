@@ -1,0 +1,8 @@
+{
+    "name": "ethereum-workshop-ccm-coin",
+    "version": "0.0.1",
+    "description": "Ethereum ERC20 coin for a Blockchain Workshop in ITESM CCM",
+    "author": "Luis Brime",
+    "email": "brimegmz@gmail.com",
+    "license": "Apache-2.0"
+}
